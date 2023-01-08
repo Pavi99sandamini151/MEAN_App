@@ -9,7 +9,7 @@ var res=mongoose.connect('mongodb://localhost/meanDb', { useNewUrlParser: true }
 if(res){
     console.log("connected");
 }else{
-    console.log("not");
+    console.log("not connected");
 }
 app.use('/', appRoute);
 
